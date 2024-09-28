@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Footer = () => {
   const svg = (
@@ -14,41 +15,53 @@ const Footer = () => {
   );
 
   return (
-    <div className=" max-w-6xl w-full mx-auto m-10">
-      <div className=" flex flex-col sm:flex-row justify-between">
+    <div className="max-w-6xl w-full mx-auto m-10">
+      {/* Invitation Section */}
+      <section className="bg-custom-brown w-full py-24 text-center text-white">
+        <h2 className="text-4xl font-bold">Invite me to your restaurant.</h2>
+        <p className="text-4xl font-bold mt-2">Get exposure of millions of food lovers.</p>
+        <p className="text-lg mt-6 max-w-2xl mx-auto">
+          Lorem dui tincidunt nunc viverra morbi et maecenas quam adipiscing integer amet eget blandit
+          phasellus est natoque blandit facilisi eleifend.
+        </p>
         <div className="mt-5">
-        <img
+        <Button text="Let's Talk" bgcolor="bg-white" textcolor="text-custom-brown" />
+        </div>
+      
+
+      </section>
+      
+      {/* Footer Links */}
+      <div className="flex flex-col sm:flex-row justify-between">
+        <div className="mt-5">
+          <img
             src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg"
             alt="logo"
             className="w-12 h-12 mx-auto"
           />
         </div>
-        <ul className=" flex sm:flex  mt-5 justify-center items-center">
-          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-            Home
-          </li>
-          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-            About
-          </li>
-          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-            Reviews
-          </li>
-          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-            Videos
-          </li>
-          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-            Contact
-          </li>
-        </ul>
+
         <ul className="flex sm:flex mt-5 justify-center items-center">
-          <li className="mx-2 ">{svg}</li>
-          <li className="mx-2">{svg}</li>
-          <li className="mx-2">{svg}</li>
+          {['Home', 'About', 'Reviews', 'Videos', 'Contact'].map((item) => (
+            <li key={item} className="mx-2 text-sm hover:text-custom-brown cursor-pointer">
+              {item}
+            </li>
+          ))}
+        </ul>
+
+        {/* Social Icons */}
+        <ul className="flex sm:flex mt-5 justify-center items-center">
+          {[...Array(3)].map((_, index) => (
+            <li key={index} className="mx-2">
+              {svg}
+            </li>
+          ))}
         </ul>
       </div>
+
+      {/* Footer Bottom */}
       <div className="flex justify-between mt-10">
         <p className="text-gray-400 text-xs">
-          {" "}
           Powered by Food Blogger & Influencer
         </p>
         <p className="text-gray-400 text-xs">

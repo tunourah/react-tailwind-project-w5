@@ -1,6 +1,6 @@
  
 import Button from './Button'
-
+import VideoCard from './VideoCard'
 const LatestVideos = () => {
   return (
 //     <div className='max-w-4xl w-full mx-auto m-10'>
@@ -110,49 +110,30 @@ const LatestVideos = () => {
 
   {/* Other Videos */}
   <div className="lg:w-1/3 flex flex-col space-y-8 mt-8 lg:mt-0">
-    {/* Video 1 */}
-    <div className="flex items-start space-x-4">
-      <img
-        src="https://via.placeholder.com/150x100"
+      {/* Video 1 */}
+      <VideoCard
+        image="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-2.jpg"
         alt="Family Dinner"
-        className="w-24 h-24 object-cover rounded-lg"
+        title="Family Dinner - Latea pulvinar scelerisque diam tempus facilisi"
+        description="Enim imperdiet fames nisl, purus et diam aliquet"
       />
-      <div>
-        <h4 className="font-semibold text-lg">
-          Family Dinner - Latea pulvinar scelerisque diam tempus facilisi
-        </h4>
-        <p className="text-gray-600 mt-2">Enim imperdiet fames nisl, purus et diam aliquet</p>
-      </div>
-    </div>
 
-    {/* Video 2 */}
-    <div className="flex items-start space-x-4">
-      <img
-        src="https://via.placeholder.com/150x100"
+      {/* Video 2 */}
+      <VideoCard
+        image="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-3.jpg"
         alt="Lobortis turpis turpis"
-        className="w-24 h-24 object-cover rounded-lg"
+        title="Lobortis turpis turpis vehicula laoreet egestas enim ornare"
+        description="Enim imperdiet fames nisl, purus et diam aliquet"
       />
-      <div>
-        <h4 className="font-semibold text-lg">
-          Lobortis turpis turpis vehicula laoreet egestas enim ornare
-        </h4>
-        <p className="text-gray-600 mt-2">Enim imperdiet fames nisl, purus et diam aliquet</p>
-      </div>
-    </div>
 
-    {/* Video 3 */}
-    <div className="flex items-start space-x-4">
-      <img
-        src="https://via.placeholder.com/150x100"
+      {/* Video 3 */}
+      <VideoCard
+        image="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-latest-video-4.jpg"
         alt="Tempus quis ac"
-        className="w-24 h-24 object-cover rounded-lg"
+        title="Tempus quis ac viverra condimentum sit nulla viverra"
+        description="Enim imperdiet fames nisl, purus et diam aliquet"
       />
-      <div>
-        <h4 className="font-semibold text-lg">Tempus quis ac viverra condimentum sit nulla viverra</h4>
-        <p className="text-gray-600 mt-2">Enim imperdiet fames nisl, purus et diam aliquet</p>
-      </div>
     </div>
-  </div>
 </div>
 </section>
   )
