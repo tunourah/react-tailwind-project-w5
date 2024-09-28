@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+  background-color: #BE7C68; /* Change this to the color you want */
+  color: black; /* Optional: set text color when selected */
+}

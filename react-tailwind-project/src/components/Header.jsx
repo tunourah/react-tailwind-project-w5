@@ -1,9 +1,11 @@
+
+
 import Button from "./Button";
 
 const Header = () => {
   return (
     <div
-      className=" border border-green-400"
+      className=" border border-green-400 select-bg-red"
       style={{
         background: "linear-gradient(to right, #f6f5f5 60%, #BE7C68 30%)", // Replace with your brown color code
       }}
