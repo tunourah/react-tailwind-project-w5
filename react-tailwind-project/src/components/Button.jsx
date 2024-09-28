@@ -1,11 +1,12 @@
- 
-
 const Button = (props) => {
-  return (
-    <butoon className="border border-white px-7 py-2 tracking-wider uppercase text-xs font-medium  bg-inherit text-white hover:bg-white hover:text-black  ">
+    return (
+      <button
+        className={`border ${props.bgcolor} px-7 py-3 tracking-wider uppercase text-xs font-medium bg-inherit  hover:bg-custom-brown hover:text-black ${props.textcolor}`}
+      >
         {props.text}
-    </butoon>
-  )
-}
-
-export default Button
+      </button>
+    );
+  };
+  
+  export default Button;
+  
