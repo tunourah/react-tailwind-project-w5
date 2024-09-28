@@ -15,7 +15,12 @@ const Header = () => {
   );
 
   return (
-    <div className="bg-white text-gray-800">
+    <div
+      className="bg-white text-gray-800"
+      style={{
+        background: "linear-gradient(to right, #f6f5f5 60%, #BE7C68 30%)",
+      }}
+    >
       {/* Header Section */}
       <header className="flex items-center justify-between p-6">
         <nav className="flex space-x-6 ">
