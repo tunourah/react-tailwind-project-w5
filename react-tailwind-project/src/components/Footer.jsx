@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-      const svg = (
+  const svg = (
     <span className="[&>svg]:h-5 [&>svg]:w-5 text-custom-brown hover:text-black">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -14,46 +14,49 @@ const Footer = () => {
   );
 
   return (
-    <div className=' max-w-4xl w-full mx-auto m-10'>
-    <div className=' flex justify-between'>
-
-<img
-              src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg"
-              alt="logo"
-              className="w-12 h-12"
-            />
-            <ul className="sm:flex hidden justify-center items-center">
-              <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-                Home
-              </li>
-              <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-                About
-              </li>
-              <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-                Reviews
-              </li>
-              <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-                Videos
-              </li>
-              <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
-                Contact
-              </li>
-            </ul>
-            <ul className="hidden sm:flex justify-center items-center">
-              <li className="mx-2 ">{svg}</li>
-              <li className="mx-2">{svg}</li>
-              <li className="mx-2">{svg}</li>
-              
-            </ul>
-             
+    <div className=" max-w-6xl w-full mx-auto m-10">
+      <div className=" flex flex-col sm:flex-row justify-between">
+        <div className="mt-5">
+        <img
+            src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg"
+            alt="logo"
+            className="w-12 h-12 mx-auto"
+          />
+        </div>
+        <ul className=" flex sm:flex  mt-5 justify-center items-center">
+          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
+            Home
+          </li>
+          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
+            About
+          </li>
+          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
+            Reviews
+          </li>
+          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
+            Videos
+          </li>
+          <li className="mx-2  text-sm  hover:text-custom-brown cursor-pointer">
+            Contact
+          </li>
+        </ul>
+        <ul className="flex sm:flex mt-5 justify-center items-center">
+          <li className="mx-2 ">{svg}</li>
+          <li className="mx-2">{svg}</li>
+          <li className="mx-2">{svg}</li>
+        </ul>
+      </div>
+      <div className="flex justify-between mt-10">
+        <p className="text-gray-400 text-xs">
+          {" "}
+          Powered by Food Blogger & Influencer
+        </p>
+        <p className="text-gray-400 text-xs">
+          © 2024 Food Blogger & Influencer
+        </p>
+      </div>
     </div>
-    <div className='flex justify-between mt-10'>
-        <p className='text-gray-400 text-xs'> Powered by Food Blogger & Influencer</p>
-        <p className='text-gray-400 text-xs'>© 2024 Food Blogger & Influencer</p>
+  );
+};
 
-    </div>
-    </div>
-  )
-}
-
-export default Footer
+export default Footer;
