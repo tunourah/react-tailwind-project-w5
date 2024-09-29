@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,4 +9,7 @@
 ::selection {
   background-color: #BE7C68;  
   color: black;  
+}
+*{
+  font-family: 'Fraunces',serif;
 }

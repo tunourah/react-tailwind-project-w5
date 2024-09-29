@@ -1,9 +1,10 @@
+import Button from "./Button";
 import Card from "./Crad";
 const LatestReviewsPage = () => {
   return (
-    <div className="bg-white text-gray-800">
+    <div className="bg-custom-gray text-gray-800">
       {/* Featured In Section */}
-      <section className="py-12 bg-white text-center">
+      <section className="py-12 bg-custom-gray text-center">
         <h2 className="text-sm font-semibold text-gray-600 uppercase tracking-wider">As Featured In</h2>
         <div className=" grid  grid-cols-2 sm:flex-row sm:flex justify-center mt-6 space-x-6">
             <div>
@@ -28,9 +29,7 @@ const LatestReviewsPage = () => {
       <section className="px-6 lg:px-12 py-12">
       <div className="flex justify-between items-center">
         <h2 className="text-3xl font-bold text-gray-900">Latest Reviews</h2>
-        <a href="#" className="text-custom-brown font-semibold">
-          View All
-        </a>
+     <Button text="View All" bgcolor="border-custom-brown"  />
       </div>
 
       <div className="grid gap-8 mt-8 md:grid-cols-3">

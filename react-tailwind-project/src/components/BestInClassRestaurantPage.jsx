@@ -3,7 +3,7 @@ import React from 'react';
 import Button from './Button'
 const BestInClassRestaurantPage = () => {
   return (
-    <div className="bg-red-100 text-gray-800">
+    <div className=" text-gray-800">
       {/* Best in Class Restaurant Section */}
       <section className="px-6 lg:px-12 py-12">
         <h2 className="text-center text-3xl font-bold text-gray-900">Best in Class Restaurant</h2>
@@ -13,7 +13,7 @@ const BestInClassRestaurantPage = () => {
 
         <div className="grid gap-8 mt-12 md:grid-cols-3">
           {/* Restaurant 1 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="  shadow-lg rounded-lg overflow-hidden">
             <img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-1.jpg" alt="Bern's Steak House" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="font-semibold text-xl">Bern's Steak House</h3>
@@ -22,7 +22,7 @@ const BestInClassRestaurantPage = () => {
           </div>
 
           {/* Restaurant 2 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="  shadow-lg   overflow-hidden">
             <img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-2.jpg" alt="Eewak Korean Restaurant" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="font-semibold text-xl">Eewak Korean Restaurant</h3>
@@ -31,7 +31,7 @@ const BestInClassRestaurantPage = () => {
           </div>
 
           {/* Restaurant 3 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="  shadow-lg   overflow-hidden">
             <img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-3.jpg" alt="The Ramban Vegan House" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="font-semibold text-xl">The Ramban Vegan House</h3>
@@ -40,7 +40,7 @@ const BestInClassRestaurantPage = () => {
           </div>
 
           {/* 4 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="  shadow-lg   overflow-hidden">
             <img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-4.jpg" alt="The Ramban Vegan House" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="font-semibold text-xl">The Ramban Vegan House</h3>
@@ -48,7 +48,7 @@ const BestInClassRestaurantPage = () => {
             </div>
           </div>
           {/* 5 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="  shadow-lg  overflow-hidden">
             <img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-5.jpg" alt="The Ramban Vegan House" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="font-semibold text-xl">The Ramban Vegan House</h3>
@@ -56,7 +56,7 @@ const BestInClassRestaurantPage = () => {
             </div>
           </div>
           {/* 6 */}
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div className="  shadow-lg   overflow-hidden">
             <img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-best-restaurant-6.jpg" alt="The Ramban Vegan House" className="w-full h-48 object-cover" />
             <div className="p-6">
               <h3 className="font-semibold text-xl">The Ramban Vegan House</h3>
@@ -67,7 +67,7 @@ const BestInClassRestaurantPage = () => {
       </section>
 
       {/* Join Mailing List Section */}
-      <section className="px-6 lg:px-12 py-12 bg-gray-50 flex justify-between items-center">
+      <section className="px-6 lg:px-12 py-12 bg-white flex justify-between items-center    border-8 border-gray-300" >
         <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-6">
           <img
             src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-subscribe-cta-img.jpg"
