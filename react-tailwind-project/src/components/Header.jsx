@@ -1,4 +1,5 @@
 import Button from "./Button";
+import Navbar from "./Navbar";
 
 const Header = () => {
   const svg1 = (
@@ -79,7 +80,7 @@ const Header = () => {
       }}
     >
       {/* Header Section */}
-      <header className="flex items-center justify-between p-6">
+      {/* <header className="flex items-center justify-between p-6">
         <nav className="flex space-x-6 ">
           <img
             src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/food-blogger-site-logo.svg"
@@ -123,8 +124,8 @@ const Header = () => {
           <li className="mx-2">{svg3}</li>
           <Button text="Let's Talk"  textcolor="text-white" />
         </ul>
-      </header>
-
+      </header> */}
+<Navbar></Navbar>
       {/* Main Section */}
       <section className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-start px-6 lg:px-12 py-10">
         {/* Text Section */}

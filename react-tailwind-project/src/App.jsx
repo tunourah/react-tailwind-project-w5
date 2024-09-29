@@ -6,6 +6,7 @@ import Header from './components/Header'
 import LatestReviewsPage from './components/LatestReviewsPage'
 import BestInClassRestaurantPage from './components/BestInClassRestaurantPage'
 import LastSection from './components/LastSection'
+import About from './pages/About'
 
 function App() {
  
@@ -45,7 +46,7 @@ function App() {
  <LastSection></LastSection>
  </div>
       </div>
-      
+    
     </>
   )
 }
