@@ -4,9 +4,13 @@ import Footer from "../components/Footer";
 import LastSection from "../components/LastSection";
 const About = () => {
   return (
-    <div>
+    <div  className='bg-custom-gray'>
+          <div  style={{
+        background: "linear-gradient(to right, #f6f5f5 60%, #BE7C68 30%)",
+      }}>
       <div className="max-w-6xl w-full mx-auto flex flex-col justify-between">
         <Navbar></Navbar>
+      </div>
       </div>
       <div className="flex flex-col sm:flex-row max-w-6xl w-full mx-auto m-10">
         <div className=" w-1/2">
@@ -122,8 +126,13 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className='bg-custom-brown'>
+<div className='max-w-6xl w-full mx-auto flex flex-col justify-between'>
+ <Footer></Footer>
+ </div>
+ </div>
       <div className="max-w-6xl w-full mx-auto flex flex-col justify-between">
-        <Footer />
+ 
         <LastSection />
       </div>
     </div>
