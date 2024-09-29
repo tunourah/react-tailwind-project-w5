@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link, NavLink } from "react-router-dom";
+
 
 const LastSection = () => {
     const svg1 = (
@@ -53,12 +55,22 @@ const LastSection = () => {
           </div>
 
           <ul className="flex sm:flex mt-5 justify-center items-center">
-            {['Home', 'About', 'Reviews', 'Videos', 'Contact'].map((item) => (
-              <li key={item} className="mx-2 text-sm hover:text-custom-brown cursor-pointer">
-                {item}
-              </li>
-            ))}
-          </ul>
+  {['Home', 'About', 'Reviews', 'Videos', 'Contact'].map((item) => (
+    <li key={item} className="mx-2 text-sm font-bold hover:text-custom-brown cursor-pointer">
+      {item === 'Home' || item === 'About' || item === 'Contact' ? (
+        <NavLink
+          to={`/${item.toLowerCase() === 'home' ? '' : item.toLowerCase()}`}
+          activeClassName="active-class"
+        >
+          {item}
+        </NavLink>
+      ) : (
+        item
+      )}
+    </li>
+  ))}
+</ul>
+
 
           {/* Social Icons */}
           <ul className="flex sm:flex mt-5 justify-center items-center">
