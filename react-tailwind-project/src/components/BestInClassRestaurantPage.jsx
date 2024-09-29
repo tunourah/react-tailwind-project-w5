@@ -85,8 +85,8 @@ const BestInClassRestaurantPage = () => {
                 placeholder="Email address"
                 className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-400"
               />
-              <div className="mt-4  ">
-              <Button  bgcolor="w-full" text=" Subscribe">
+              <div className="mt-4 inline ">
+              <Button   text=" Subscribe">
 
               </Button>
               </div>

@@ -29,7 +29,7 @@ const LatestReviewsPage = () => {
       <section className="px-6 lg:px-12 py-12">
       <div className="flex justify-between items-center">
         <h2 className="text-3xl font-bold text-gray-900">Latest Reviews</h2>
-     <Button text="View All" bgcolor="border-custom-brown"  />
+     <Button text="View All" bgcolor="border-custom-brown" textcolor="text-custom-brown"  />
       </div>
 
       <div className="grid gap-8 mt-8 md:grid-cols-3">
