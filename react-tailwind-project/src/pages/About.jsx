@@ -105,7 +105,7 @@ const About = () => {
         <div className=" w-1/2">
           <div>
             <svg
-              className="w-[30px] h-[30px] fill-custom-brown"
+              className="w-[30px] h-[30px] fill-custom-brown m-2 ml-5"
               viewBox="0 0 512 512"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -114,15 +114,15 @@ const About = () => {
           </div>
 
           <div>
-            <p className="text-4xl font-bold  mx-3 mt-10 w-screen sm:w-full">
+            <p className=" text-3lg sm:text-4xl font-bold  mx-3 mt-10 w-screen sm:w-full">
               Sem nibh tristique ut laoreet amet tortor eu urna, ante urna
               aliquam tellus suscipit turpis turpis volutpat sed malesuada cras
               amet, donec eget molestie ipsum semper nunc aenean sagittis
               consequat.
             </p>
           </div>
-          <div className="mt-10">
-            <img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/signature.png" alt="segneturs"   className=" fill-custom-brown"/>
+          <div className="mt-10 m-2 mb-5">
+            <img src="https://websitedemos.net/food-blogger-04/wp-content/uploads/sites/793/2021/03/signature.png" alt="segneturs"   className=" fill-custom-brown "/>
           </div>
         </div>
       </div>
